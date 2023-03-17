@@ -117,3 +117,28 @@
      SOLUZIONE RESPONSIVE
   ************************************************/
  
+  /* Regole CSS per il layout tablet */
+@media (max-width: 48rem) {
+    header {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 1.5625rem;
+    }
+} 
+
+/* Regole CSS per il layout smartphone */
+@media screen and (max-width: 30rem) {
+    header {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+} 
+
+
