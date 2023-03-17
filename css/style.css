@@ -117,7 +117,8 @@
      SOLUZIONE RESPONSIVE
   ************************************************/
  
-  /* Regole CSS per il layout tablet */
+  /* Css rules for tablet layout */
+
 @media (max-width: 48rem) {
     header {
         width: 100%;
@@ -129,7 +130,8 @@
     }
 } 
 
-/* Regole CSS per il layout smartphone */
+/* Css rules for samrtphone layout */
+
 @media screen and (max-width: 30rem) {
 
     .lessons {
@@ -181,5 +183,28 @@
         background-color: #222222;
         margin-bottom: 0;
         padding: 50px;
+    }
+}
+
+/* Css rules for intermediate layout */
+@media screen and (min-width: 30rem) and (max-width: 72.5rem) {
+    header {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 1.5625rem;
+    }
+
+    .why-us .col-left { 
+        width: 30%;
+        padding-bottom: 3.125rem;
+    }
+
+    
+    .why-us .col-right {
+        width: 70%;
+        padding-bottom: 3.125rem;
     }
 }
